@@ -5,15 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lookscout</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end of font -->
+
+    <!-- bootstrap -->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <!-- end of bootstrap -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <!-- end of css -->
   </head>
   <body>
-    <h1>Hello World</h1>
+    <section class="hero">
+      <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="asset/logo/Lookscout.png" alt="logo-loockscout" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item ms-5">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacts</a>
+                </li>
+              </ul>
+              <!-- login -->
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link blue-font" aria-current="page" href="#"
+                    >Sign Up</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="nav-link" href="#" class="btn btn-primary">Log In</a>
+                </li>
+              </ul>
+              <!-- end of login -->
+            </div>
+          </div>
+        </nav>
+        <!-- end of navbar -->
 
-    <a href="" class="btn btn-primary">okk</a>
+        <div class="row text-center mt-5">
+          <div class="col">
+            <h1 class="font-title">
+              Your Supercharged <br />
+              Design Workflow.
+            </h1>
+            <p class="font-p">
+              We’ve been told it is possible to revolutionize the payment
+              industry. <br />
+              We have not reinvented the wheel, we decided to build upon it -
+              successfully.
+            </p>
+          </div>
+        </div>
+        <div class="row text-center mt-4">
+          <div class="col">
+            <a href="" class="btn btn-primary">Get Started</a>
+            <a href="" class="btn btn-white">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>

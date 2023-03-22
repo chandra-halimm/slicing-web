@@ -1,0 +1,48 @@
+:root {
+  --blue: #437ef7;
+  --shape: #f8f9fb;
+  --blue-shape: #2b63d9;
+  --title: #272d37;
+}
+
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.hero {
+  height: 845;
+  background-color: var(--shape);
+}
+
+.nav-item {
+  font-size: 15px;
+  margin-right: 32px;
+  color: #272d37;
+  font-weight: 600;
+}
+
+.blue-font {
+  color: var(--blue);
+}
+
+.btn-white {
+  background-color: #fff;
+  border-color: #dae0e6;
+  color: #575757;
+}
+
+.btn-white:hover {
+  background-color: #fff;
+  border-color: var(--blue);
+  color: #000;
+}
+
+.font-title {
+  font-weight: 600;
+  font-size: 52px;
+}
+.font-p {
+  color: #5f6d7e;
+  font-size: 18px;
+  margin-top: 24px;
+}
