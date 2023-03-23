@@ -5,8 +5,20 @@
   --title: #272d37;
 }
 
+.btn-primary {
+  background-color: var(--blue);
+}
+
 * {
   font-family: "Fira Sans", sans-serif;
+}
+
+@media (max-width: 990px) {
+  .btn-sm {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+  }
 }
 
 .hero {
@@ -45,4 +57,17 @@
   color: #5f6d7e;
   font-size: 18px;
   margin-top: 24px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  color: #5f6d7e;
+}
+
+.img-size {
+  background-size: cover;
+  overflow: hidden;
 }
