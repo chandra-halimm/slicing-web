@@ -5,20 +5,12 @@
   --title: #272d37;
 }
 
-.btn-primary {
-  background-color: var(--blue);
+.margin {
+  margin-top: 35px;
 }
 
 * {
   font-family: "Fira Sans", sans-serif;
-}
-
-@media (max-width: 990px) {
-  .btn-sm {
-    width: 100%;
-    margin: 10px 0 0 0;
-    padding: 10px 0 10px 0;
-  }
 }
 
 .hero {
@@ -51,7 +43,7 @@
 
 .font-title {
   font-weight: 600;
-  font-size: 52px;
+  font-size: 50px;
 }
 .font-p {
   color: #5f6d7e;
@@ -70,4 +62,29 @@
 .img-size {
   background-size: cover;
   overflow: hidden;
+}
+
+.hero-2 {
+  background-color: var(--blue);
+  height: auto;
+}
+
+@media (max-width: 990px) {
+  .btn-sm {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 10px 0 10px 0;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .font-title {
+    font-size: 32px;
+  }
+
+  .margin {
+    margin-top: 0;
+  }
 }
