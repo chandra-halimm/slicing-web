@@ -3,6 +3,7 @@
   --shape: #f8f9fb;
   --blue-shape: #2b63d9;
   --title: #272d37;
+  --sky-blue: #f5faff;
 }
 
 .margin {
@@ -69,6 +70,11 @@
   height: auto;
 }
 
+.person-img {
+  margin-top: -25px;
+  margin-right: 30px;
+  width: 80px;
+}
 @media (max-width: 990px) {
   .btn-sm {
     width: 100%;
@@ -85,6 +91,12 @@
   }
 
   .margin {
-    margin-top: 0;
+    margin-top: 0 !important;
+  }
+
+  .person-img {
+    margin-top: -35px;
+    margin-right: 30px;
+    width: 80px;
   }
 }
